@@ -1,4 +1,4 @@
-# Python installation
+## Python installation
 
 ### Linux
 
@@ -32,4 +32,18 @@ Then install python
 ```bash
 sudo apt-get update
 sudo apt-get install -y python3 python3-pip python3-venv
+```
+
+## Create vitrual environment for Python
+
+Create vitrual environment at ~/myenv
+
+```bash
+python3 -m venv ~/myenv
+```
+
+Active vitrual environment
+
+```bash
+source ~/myenv/bin/activate
 ```
